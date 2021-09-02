@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E28CBF726E111A700D74533 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E28CBF626E111A700D74533 /* 001.jpg */; };
+		5E28CBF926E111E300D74533 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E28CBF826E111E300D74533 /* README.md */; };
+		5E28CBFB26E1136600D74533 /* Licensed in Resources */ = {isa = PBXBuildFile; fileRef = 5E28CBFA26E1136600D74533 /* Licensed */; };
 		5E7A29A826DFD5D300C48A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A29A726DFD5D300C48A0C /* AppDelegate.swift */; };
 		5E7A29AA26DFD5D300C48A0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A29A926DFD5D300C48A0C /* SceneDelegate.swift */; };
 		5E7A29AC26DFD5D300C48A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A29AB26DFD5D300C48A0C /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E28CBF626E111A700D74533 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		5E28CBF826E111E300D74533 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Tavol/README.md; sourceTree = "<group>"; };
+		5E28CBFA26E1136600D74533 /* Licensed */ = {isa = PBXFileReference; lastKnownFileType = text; path = Licensed; sourceTree = "<group>"; };
 		5E7A29A426DFD5D300C48A0C /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A29A726DFD5D300C48A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E7A29A926DFD5D300C48A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,10 +43,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E28CBF526E1119800D74533 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5E28CBF626E111A700D74533 /* 001.jpg */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		5E7A299B26DFD5D300C48A0C = {
 			isa = PBXGroup;
 			children = (
-				5E7A29A626DFD5D300C48A0C /* UnderstandingAutoLayout */,
+				5E28CBFA26E1136600D74533 /* Licensed */,
+				5E28CBF826E111E300D74533 /* README.md */,
+				5E28CBF526E1119800D74533 /* Screenshots */,
+				5E7A29A626DFD5D300C48A0C /* LoginScreen */,
 				5E7A29A526DFD5D300C48A0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +70,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E7A29A626DFD5D300C48A0C /* UnderstandingAutoLayout */ = {
+		5E7A29A626DFD5D300C48A0C /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
 				5E7A29A726DFD5D300C48A0C /* AppDelegate.swift */,
@@ -64,7 +81,7 @@
 				5E7A29B226DFD5D600C48A0C /* LaunchScreen.storyboard */,
 				5E7A29B526DFD5D600C48A0C /* Info.plist */,
 			);
-			path = UnderstandingAutoLayout;
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +142,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7A29B426DFD5D600C48A0C /* LaunchScreen.storyboard in Resources */,
+				5E28CBFB26E1136600D74533 /* Licensed in Resources */,
 				5E7A29B126DFD5D600C48A0C /* Assets.xcassets in Resources */,
+				5E28CBF926E111E300D74533 /* README.md in Resources */,
 				5E7A29AF26DFD5D300C48A0C /* Main.storyboard in Resources */,
+				5E28CBF726E111A700D74533 /* 001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
-				INFOPLIST_FILE = UnderstandingAutoLayout/Info.plist;
+				INFOPLIST_FILE = LoginScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
-				INFOPLIST_FILE = UnderstandingAutoLayout/Info.plist;
+				INFOPLIST_FILE = LoginScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

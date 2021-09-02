@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UnderstandingAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginScreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bKn-pt-tnn">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-l7-Nbf" userLabel="ViewSign">
-                                <rect key="frame" x="50" y="446" width="290" height="44"/>
+                                <rect key="frame" x="50" y="506" width="290" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MmG-w4-7ZL">
                                         <rect key="frame" x="36.666666666666686" y="0.66666666666668561" width="217" height="43"/>
@@ -95,7 +95,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTi-LJ-2sI" userLabel="ViewSignApple">
-                                <rect key="frame" x="50" y="510" width="290" height="44"/>
+                                <rect key="frame" x="50" y="570" width="290" height="44"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSr-ZQ-MLo">
                                         <rect key="frame" x="38" y="10.666666666666629" width="214" height="23"/>
@@ -126,7 +126,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5Aa-AI-0hd">
-                                <rect key="frame" x="95.333333333333329" y="564" width="199.33333333333337" height="28"/>
+                                <rect key="frame" x="95.333333333333329" y="624" width="199.33333333333337" height="28"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an Account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWg-K5-A1n">
                                         <rect key="frame" x="0.0" y="0.0" width="143.33333333333334" height="28"/>
@@ -167,7 +167,7 @@
                             <constraint firstItem="MTi-LJ-2sI" firstAttribute="leading" secondItem="Nsl-UR-Sxb" secondAttribute="leading" constant="50" id="v6Q-Z8-HCA"/>
                             <constraint firstItem="3zF-Gp-TCc" firstAttribute="leading" secondItem="pyH-9C-VDu" secondAttribute="leading" id="whj-Cz-gQ7"/>
                             <constraint firstItem="Kb9-Z8-ktA" firstAttribute="trailing" secondItem="3zF-Gp-TCc" secondAttribute="trailing" id="xaY-XF-Zoq"/>
-                            <constraint firstItem="ycY-l7-Nbf" firstAttribute="top" secondItem="Kb9-Z8-ktA" secondAttribute="bottom" constant="40" id="zKM-Z2-8bz"/>
+                            <constraint firstItem="ycY-l7-Nbf" firstAttribute="top" secondItem="Kb9-Z8-ktA" secondAttribute="bottom" constant="100" id="zKM-Z2-8bz"/>
                         </constraints>
                     </view>
                     <connections>
