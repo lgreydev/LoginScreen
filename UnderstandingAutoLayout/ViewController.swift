@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var viewOfLogo: UIView!
     @IBOutlet var viewOfPassword: UIView!
     @IBOutlet var viewSignApple: UIView!
-    
+    @IBOutlet var viewSign: UIView!
     
     
     override func viewDidLoad() {
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         viewOfLogo.layer.cornerRadius = 20
         viewOfPassword.layer.cornerRadius = 20
         viewSignApple.layer.cornerRadius = 20
+        viewSign.layer.cornerRadius = 20
     }
 
     
